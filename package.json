@@ -1,0 +1,20 @@
+{
+  "name": "attest-travis-demo",
+  "version": "1.0.0",
+  "description": "A demo of using WorldSpace Attest with Travis CI",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -u localhost -p 3333",
+    "test": "mocha e2e/test --timeout 20000"
+  },
+  "author": "Marcy Sutton <marcy.sutton@deque.com> (http://www.deque.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "attest-node": "^1.2.1",
+    "attest-webdriverjs": "^1.1.7",
+    "chai": "^3.5.0",
+    "http-server": "^0.9.0",
+    "mocha": "^3.2.0",
+    "selenium-webdriver": "^3.0.1"
+  }
+}
